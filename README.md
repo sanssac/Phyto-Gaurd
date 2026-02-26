@@ -1,95 +1,126 @@
-🌿 Plant Disease Detection using Deep Learning
-📌 Project Overview
+Perfect 👍 since you are **NOT uploading the model file**, I’ll rewrite the README properly and professionally for that case.
 
-This project implements a Convolutional Neural Network (CNN) model to detect and classify plant leaf diseases from images. The system helps in early identification of plant diseases, which can assist farmers and agricultural experts in taking preventive measures.
+You can copy this directly into your `README.md`.
 
-The model is trained on labeled leaf images and can predict disease categories from new test images.
+---
 
-🎯 Problem Statement
+# 🌿 Plant Disease Detection using Deep Learning (CNN)
 
-Plant diseases significantly reduce agricultural productivity. Manual detection is time-consuming and requires expert knowledge.
+## 📌 Project Overview
 
-This project aims to build an automated image-based disease detection system using Deep Learning.
+This project implements a **Convolutional Neural Network (CNN)** to detect and classify plant leaf diseases from images.
 
-🧠 Model Architecture
+The system is designed to help in early disease detection by analyzing leaf images and predicting the disease category using deep learning techniques.
 
-Convolutional Neural Network (CNN)
+> ⚠️ Note: The trained model file is not included in this repository due to GitHub file size limitations. The model can be retrained using the provided training notebook.
 
-Image preprocessing & normalization
+---
 
-Training & validation split
+## 🎯 Problem Statement
 
-Accuracy and loss monitoring
+Plant diseases reduce agricultural productivity and quality. Manual inspection is time-consuming and requires expertise.
 
-Saved trained model for inference
+This project aims to build an automated image-based plant disease classification system using Deep Learning.
 
-🛠 Technologies Used
+---
 
-Python
+## 🧠 Model Details
 
-TensorFlow / Keras
+* Convolutional Neural Network (CNN)
+* Image resizing and normalization
+* Training & validation split
+* Model evaluation using accuracy & loss metrics
+* Model saved locally after training
 
-NumPy
+---
 
-OpenCV
+## 🛠 Technologies Used
 
-Matplotlib
+* Python
+* TensorFlow / Keras
+* NumPy
+* OpenCV
+* Matplotlib
+* Scikit-learn
 
-Scikit-learn
+---
 
-📂 Project Structure
+## 📂 Project Structure
+
+```
 Plant-Disease-Detection/
 │
 ├── train_plant_disease.ipynb
 ├── testing_plant_disease.ipynb
-├── trained_model.keras
 ├── requirements.txt
 └── README.md
-🚀 How to Run the Project
-1️⃣ Clone the repository
+```
+
+> The trained `.keras` model file is excluded to maintain repository size limits.
+
+---
+
+## 🚀 How to Run the Project
+
+### 1️⃣ Clone the repository
+
+```
 git clone https://github.com/your-username/Plant-Disease-Detection.git
 cd Plant-Disease-Detection
-2️⃣ Install dependencies
+```
+
+### 2️⃣ Install dependencies
+
+```
 pip install -r requirements.txt
-3️⃣ Train the model
+```
+
+### 3️⃣ Train the model
 
 Open:
 
+```
 train_plant_disease.ipynb
+```
 
-Run all cells to train the model.
+Run all cells to train the CNN model.
 
-4️⃣ Test the model
+This will generate a trained model file locally.
+
+### 4️⃣ Test the model
 
 Open:
 
+```
 testing_plant_disease.ipynb
+```
 
-Upload a leaf image to predict the disease.
+Use a custom plant leaf image to predict disease class.
 
-📊 Results
+---
 
-Model trained on labeled plant leaf dataset
+## 📊 Results
 
-Achieved high validation accuracy
+* Successfully trained CNN model on plant leaf dataset
+* Achieved high validation accuracy
+* Model capable of classifying unseen leaf images
 
-Successfully classifies plant diseases from unseen images
 
-(You can update this section with your exact accuracy)
+---
 
-🔍 Features
+## 🔍 Key Features
 
 ✔ Image preprocessing pipeline
-✔ CNN-based classification
-✔ Model saving and loading
-✔ Prediction on custom images
+✔ Deep Learning-based classification
+✔ Model training and evaluation
+✔ Prediction on new images
+✔ Reproducible training process
 
-📈 Future Improvements
+---
 
-Deploy as a Web Application
+## 📈 Future Improvements
 
-Convert into Mobile App
-
-Use Transfer Learning (ResNet, EfficientNet)
-
-Real-time disease detection using camera
+* Use Transfer Learning (ResNet / EfficientNet)
+* Deploy as a Web Application (Flask / Streamlit)
+* Convert into a Mobile Application
+* Add real-time camera-based detection
