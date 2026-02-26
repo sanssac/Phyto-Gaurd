@@ -1,8 +1,4 @@
-Perfect 👍 since you are **NOT uploading the model file**, I’ll rewrite the README properly and professionally for that case.
 
-You can copy this directly into your `README.md`.
-
----
 
 # 🌿 Plant Disease Detection using Deep Learning (CNN)
 
